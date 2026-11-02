@@ -74,6 +74,88 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #dfe5eb;
+}
+
+.participants-section h5 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #34495e;
+  font-size: 14px;
+}
+
+.participants-section h5 span {
+  display: inline-flex;
+  min-width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  border-radius: 11px;
+  background-color: #e6f3ef;
+  color: #28735c;
+  font-size: 12px;
+}
+
+.participants-list {
+  list-style: none;
+  color: #53616d;
+  font-size: 14px;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 3px 0;
+}
+
+.participants-list li span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.participants-list .empty-participants {
+  color: #77838d;
+  font-style: italic;
+}
+
+.remove-participant {
+  display: inline-flex;
+  flex: 0 0 28px;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #65717b;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.remove-participant:hover {
+  background-color: #ffebee;
+  color: #b4232f;
+}
+
+.remove-participant:focus-visible {
+  outline: 2px solid #1a237e;
+  outline-offset: 2px;
+}
+
+.remove-participant:disabled {
+  cursor: wait;
+  opacity: 0.5;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
